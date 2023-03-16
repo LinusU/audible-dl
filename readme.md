@@ -8,6 +8,12 @@ I've often have a hard time using the Download-button on Audible unless I'm on a
 
 This tool can only download books that you have purchased from Audible, and should be able to download using their website.
 
+## Installation
+
+```bash
+cargo install audible-dl
+```
+
 ## Usage
 
 You need to figure out two variables before you can use the tool:
