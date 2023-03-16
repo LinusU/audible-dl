@@ -1,0 +1,19 @@
+[package]
+name = "audible-dl"
+version = "0.0.0"
+edition = "2021"
+
+description = "A tool to download Audible books when on a slow/unstable internet connection"
+homepage = "https://github.com/LinusU/audible-dl"
+documentation = "https://github.com/LinusU/audible-dl#readme"
+repository = "https://github.com/LinusU/audible-dl"
+keywords = ["audible", "audiobook"]
+readme = "readme.md"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.69"
+clap = { version = "4.1.8", features = ["derive"] }
+indicatif = "0.17.3"
+reqwest = "0.11.14"
+tokio = { version = "1.26.0", features = ["rt", "macros", "fs"] }
